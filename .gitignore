@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+venv/
+ENV/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large data files (use Git LFS or exclude)
+# Uncomment if you don't want to track these
+# overture_truck_parking.csv
+# overture_truck_parking.geojson
+
+# Test output files (timestamped)
+cv_test_results_*.json
+rag_comparison_*.json
+training_comparison_*.json
+
+# Training images (can be re-downloaded)
+training_images/

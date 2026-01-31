@@ -1,0 +1,83 @@
+{
+  "description": "Rest area and truck parking lot cameras for CV testing",
+  "created": "2026-01-31",
+  "cameras": [
+    {
+      "file": "MN_C30038.jpg",
+      "source": "Minnesota DOT",
+      "location": "St. Croix Travel Info Center",
+      "url": "https://video.dot.state.mn.us/video/image/metro/C30038",
+      "type": "rest_area_parking"
+    },
+    {
+      "file": "MN_C30040.jpg",
+      "source": "Minnesota DOT",
+      "location": "St. Croix Travel Info Center",
+      "url": "https://video.dot.state.mn.us/video/image/metro/C30040",
+      "type": "rest_area_parking"
+    },
+    {
+      "file": "MN_C30042.jpg",
+      "source": "Minnesota DOT",
+      "location": "St. Croix Travel Info Center",
+      "url": "https://video.dot.state.mn.us/video/image/metro/C30042",
+      "type": "rest_area_parking"
+    },
+    {
+      "file": "NY_TA_195_truckpark.png",
+      "source": "NY Thruway",
+      "location": "I-87 NB Ardsley Service Area - Truck Park 1",
+      "url": "https://nyssnapshot.com/TA_195.png",
+      "type": "service_area_truck_parking"
+    },
+    {
+      "file": "NY_TA_196_truckpark.png",
+      "source": "NY Thruway",
+      "location": "I-87 NB Ardsley Service Area - Truck Park 2",
+      "url": "https://nyssnapshot.com/TA_196.png",
+      "type": "service_area_truck_parking"
+    },
+    {
+      "file": "NY_TA_209_truckpark.png",
+      "source": "NY Thruway",
+      "location": "I-87 NB Plattekill Service Area - Truck Park 1",
+      "url": "https://nyssnapshot.com/TA_209.png",
+      "type": "service_area_truck_parking"
+    },
+    {
+      "file": "NY_TA_218_truckpark.png",
+      "source": "NY Thruway",
+      "location": "I-87 SB Ramapo Service Area - Truck Park 1",
+      "url": "https://nyssnapshot.com/TA_218.png",
+      "type": "service_area_truck_parking"
+    },
+    {
+      "file": "NY_TA_219_truckpark.png",
+      "source": "NY Thruway",
+      "location": "I-87 SB Ramapo Service Area - Truck Park 2",
+      "url": "https://nyssnapshot.com/TA_219.png",
+      "type": "service_area_truck_parking"
+    },
+    {
+      "file": "NY_TA_233_truckpark.png",
+      "source": "NY Thruway",
+      "location": "I-87 NB Malden Service Area - Truck Park 1",
+      "url": "https://nyssnapshot.com/TA_233.png",
+      "type": "service_area_truck_parking"
+    },
+    {
+      "file": "NY_TA_240_truckpark.png",
+      "source": "NY Thruway",
+      "location": "I-87 SB Ulster Service Area - Truck Park 1",
+      "url": "https://nyssnapshot.com/TA_240.png",
+      "type": "service_area_truck_parking"
+    },
+    {
+      "file": "NY_TA_254_truckpark.png",
+      "source": "NY Thruway",
+      "location": "I-87 SB Modena Service Area - Truck Park 1",
+      "url": "https://nyssnapshot.com/TA_254.png",
+      "type": "service_area_truck_parking"
+    }
+  ]
+}

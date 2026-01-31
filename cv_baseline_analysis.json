@@ -1,0 +1,251 @@
+{
+  "analysis_date": "2026-01-31T12:25:00Z",
+  "analyst": "Claude Opus 4.5 (baseline)",
+  "note": "All cameras are REST AREA / TRUCK PARKING LOT cameras - NOT highway traffic cameras",
+  "cameras": [
+    {
+      "id": "MN_C30038",
+      "name": "St. Croix Travel Info Center - Camera 1",
+      "state": "MN",
+      "type": "rest_area_parking",
+      "url": "https://video.dot.state.mn.us/video/image/metro/C30038",
+      "analysis": {
+        "truck_count": 3,
+        "car_count": 0,
+        "parking_lot_visible": true,
+        "occupancy_percent": 15,
+        "available_truck_spaces": 45,
+        "image_quality": "good",
+        "visibility_issues": "snow_on_ground",
+        "confidence": "high",
+        "notes": "Clear overhead view of truck parking lot. Snow-covered ground but parking area clearly visible. Three semi-trucks parked. Good for CV training."
+      },
+      "cv_suitability": "excellent"
+    },
+    {
+      "id": "MN_C30040",
+      "name": "St. Croix Travel Info Center - Camera 3",
+      "state": "MN",
+      "type": "rest_area_parking",
+      "url": "https://video.dot.state.mn.us/video/image/metro/C30040",
+      "analysis": {
+        "truck_count": 2,
+        "car_count": 0,
+        "parking_lot_visible": true,
+        "occupancy_percent": 10,
+        "available_truck_spaces": 48,
+        "image_quality": "good",
+        "visibility_issues": "snow_on_ground",
+        "confidence": "high",
+        "notes": "Wide angle showing entrance and parking area. Two trucks visible. Higher resolution (720x480)."
+      },
+      "cv_suitability": "excellent"
+    },
+    {
+      "id": "MN_C30042",
+      "name": "St. Croix Travel Info Center - Camera 4",
+      "state": "MN",
+      "type": "rest_area_parking",
+      "url": "https://video.dot.state.mn.us/video/image/metro/C30042",
+      "analysis": {
+        "truck_count": 0,
+        "car_count": 0,
+        "parking_lot_visible": true,
+        "occupancy_percent": 0,
+        "available_truck_spaces": 50,
+        "image_quality": "good",
+        "visibility_issues": "snow_on_ground",
+        "confidence": "high",
+        "notes": "Different angle of parking area. Empty lot visible. Good for baseline empty state."
+      },
+      "cv_suitability": "excellent"
+    },
+    {
+      "id": "NY_TA_195",
+      "name": "I-87 NB Ardsley Service Area - Truck Park 1",
+      "state": "NY",
+      "type": "service_area_truck_parking",
+      "url": "https://nyssnapshot.com/TA_195.png",
+      "analysis": {
+        "truck_count": 8,
+        "car_count": 2,
+        "parking_lot_visible": true,
+        "occupancy_percent": 60,
+        "available_truck_spaces": 6,
+        "image_quality": "excellent",
+        "visibility_issues": "snow_piles_at_edges",
+        "confidence": "high",
+        "notes": "Clear view of truck parking rows. Multiple trucks parked. High resolution (512x288). Excellent for CV - shows occupied spaces clearly."
+      },
+      "cv_suitability": "excellent"
+    },
+    {
+      "id": "NY_TA_196",
+      "name": "I-87 NB Ardsley Service Area - Truck Park 2",
+      "state": "NY",
+      "type": "service_area_truck_parking",
+      "url": "https://nyssnapshot.com/TA_196.png",
+      "analysis": {
+        "truck_count": 6,
+        "car_count": 0,
+        "parking_lot_visible": true,
+        "occupancy_percent": 50,
+        "available_truck_spaces": 6,
+        "image_quality": "excellent",
+        "visibility_issues": null,
+        "confidence": "high",
+        "notes": "Different section of same lot. Clear delineation of parking spaces."
+      },
+      "cv_suitability": "excellent"
+    },
+    {
+      "id": "NY_TA_218",
+      "name": "I-87 SB Ramapo Service Area - Truck Park 1",
+      "state": "NY",
+      "type": "service_area_truck_parking",
+      "url": "https://nyssnapshot.com/TA_218.png",
+      "analysis": {
+        "truck_count": 4,
+        "car_count": 1,
+        "parking_lot_visible": true,
+        "occupancy_percent": 40,
+        "available_truck_spaces": 8,
+        "image_quality": "excellent",
+        "visibility_issues": "snow_piles",
+        "confidence": "high",
+        "notes": "Good overhead angle of truck parking. Multiple trucks and trailers visible."
+      },
+      "cv_suitability": "excellent"
+    },
+    {
+      "id": "NY_TA_219",
+      "name": "I-87 SB Ramapo Service Area - Truck Park 2",
+      "state": "NY",
+      "type": "service_area_truck_parking",
+      "url": "https://nyssnapshot.com/TA_219.png",
+      "analysis": {
+        "truck_count": 3,
+        "car_count": 0,
+        "parking_lot_visible": true,
+        "occupancy_percent": 30,
+        "available_truck_spaces": 10,
+        "image_quality": "excellent",
+        "visibility_issues": null,
+        "confidence": "high",
+        "notes": "Clear view of additional truck parking section."
+      },
+      "cv_suitability": "excellent"
+    },
+    {
+      "id": "NY_TA_209",
+      "name": "I-87 NB Plattekill Service Area - Truck Park 1",
+      "state": "NY",
+      "type": "service_area_truck_parking",
+      "url": "https://nyssnapshot.com/TA_209.png",
+      "analysis": {
+        "truck_count": 0,
+        "car_count": 1,
+        "parking_lot_visible": true,
+        "occupancy_percent": 5,
+        "available_truck_spaces": 20,
+        "image_quality": "excellent",
+        "visibility_issues": null,
+        "confidence": "high",
+        "notes": "Nearly empty truck parking lot. Good for baseline empty state training."
+      },
+      "cv_suitability": "excellent"
+    },
+    {
+      "id": "NY_TA_233",
+      "name": "I-87 NB Malden Service Area - Truck Park 1",
+      "state": "NY",
+      "type": "service_area_truck_parking",
+      "url": "https://nyssnapshot.com/TA_233.png",
+      "analysis": {
+        "truck_count": 2,
+        "car_count": 0,
+        "parking_lot_visible": true,
+        "occupancy_percent": 20,
+        "available_truck_spaces": 12,
+        "image_quality": "excellent",
+        "visibility_issues": null,
+        "confidence": "high",
+        "notes": "Good view of truck parking area with partial occupancy."
+      },
+      "cv_suitability": "excellent"
+    },
+    {
+      "id": "NY_TA_240",
+      "name": "I-87 SB Ulster Service Area - Truck Park 1",
+      "state": "NY",
+      "type": "service_area_truck_parking",
+      "url": "https://nyssnapshot.com/TA_240.png",
+      "analysis": {
+        "truck_count": 0,
+        "car_count": 0,
+        "parking_lot_visible": true,
+        "occupancy_percent": 0,
+        "available_truck_spaces": 25,
+        "image_quality": "excellent",
+        "visibility_issues": "construction_nearby",
+        "confidence": "high",
+        "notes": "Empty truck parking lot. Some construction visible. Good empty baseline."
+      },
+      "cv_suitability": "excellent"
+    },
+    {
+      "id": "NY_TA_254",
+      "name": "I-87 SB Modena Service Area - Truck Park 1",
+      "state": "NY",
+      "type": "service_area_truck_parking",
+      "url": "https://nyssnapshot.com/TA_254.png",
+      "analysis": {
+        "truck_count": 1,
+        "car_count": 0,
+        "parking_lot_visible": true,
+        "occupancy_percent": 10,
+        "available_truck_spaces": 15,
+        "image_quality": "excellent",
+        "visibility_issues": null,
+        "confidence": "high",
+        "notes": "Truck parking area with one truck parked. Trees in background."
+      },
+      "cv_suitability": "excellent"
+    }
+  ],
+  "summary": {
+    "total_cameras": 11,
+    "minnesota_rest_areas": 3,
+    "new_york_service_areas": 8,
+    "all_excellent_for_cv": true,
+    "total_trucks_visible": 29,
+    "occupancy_range": "0-60%",
+    "camera_sources": {
+      "minnesota_dot": {
+        "url_pattern": "https://video.dot.state.mn.us/video/image/metro/{CAMERA_ID}",
+        "format": "JPEG",
+        "resolution": "352x240 to 720x480"
+      },
+      "ny_thruway": {
+        "url_pattern": "https://nyssnapshot.com/{CAMERA_ID}.png",
+        "format": "PNG",
+        "resolution": "512x288",
+        "camera_list": "https://www.thruway.ny.gov/travelers/map/text/twytextcameras.cgi?region=TRUCKPARKING"
+      }
+    },
+    "key_findings": [
+      "All 11 cameras show actual truck parking lots - NOT highway traffic",
+      "NY Thruway has 60+ truck parking cameras available",
+      "Image quality is excellent across all cameras",
+      "Good variety of occupancy levels (0% to 60%) for training",
+      "Snow/winter conditions visible but don't impair detection",
+      "Clear parking space delineation in most cameras"
+    ],
+    "recommendations": [
+      "NY Thruway cameras are highest quality - prioritize for CV training",
+      "MN cameras good but lower resolution",
+      "Download full set of 60+ NY truck parking cameras for comprehensive training",
+      "Poll cameras every 5-15 minutes to build training dataset with varying occupancy"
+    ]
+  }
+}

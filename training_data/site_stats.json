@@ -1,0 +1,189 @@
+{
+  "MN_C30040": {
+    "samples": [
+      {
+        "truck_count": 1,
+        "occupancy_percent": 5,
+        "weather": "clear",
+        "time_of_day": "day",
+        "detailed_notes": "Winter conditions with snow coverage throughout. The parking lot appears largely empty with clear visibility. Snow may obscure some parking space markings but does not significantly impair vehicle detection. The aerial perspective provides good coverage of the parking area."
+      }
+    ],
+    "name": "MN_C30040",
+    "avg_truck_count": 1.0,
+    "max_truck_count": 1,
+    "avg_occupancy": 5.0,
+    "sample_count": 1,
+    "detection_tips": "Winter conditions common. Look for truck shapes despite snow."
+  },
+  "MN_C30042": {
+    "samples": [
+      {
+        "truck_count": 0,
+        "occupancy_percent": 0,
+        "weather": "clear",
+        "time_of_day": "day",
+        "detailed_notes": "This appears to be a completely empty truck parking lot with diagonal parking spaces. The lot shows clear tire tracks and wear patterns in the dirt/gravel surface. Snow patches are visible along the edges. A highway/roadway is visible in the background with what appears to be a bridge structure. The parking spaces appear to be designed for large vehicles/trucks based on their size and diagonal configuration. The 'FIXED VIEW' text overlay suggests this is from a stationary monitoring camera."
+      }
+    ],
+    "name": "MN_C30042",
+    "avg_truck_count": 0.0,
+    "max_truck_count": 0,
+    "avg_occupancy": 0.0,
+    "sample_count": 1,
+    "detection_tips": "Winter conditions common. Look for truck shapes despite snow."
+  },
+  "MN_C30038": {
+    "samples": [
+      {
+        "truck_count": 12,
+        "occupancy_percent": 47,
+        "weather": "snow",
+        "time_of_day": "day",
+        "detailed_notes": "Clear winter day with good visibility despite snow coverage. The diagonal parking layout is clearly visible. Mix of red, white, and darker colored trucks. Some trucks appear to be refrigerated trailers. The parking lot appears to be a truck stop or rest area with dedicated semi-truck parking. Snow plow tracks visible in driving lanes."
+      }
+    ],
+    "name": "MN_C30038",
+    "avg_truck_count": 12.0,
+    "max_truck_count": 12,
+    "avg_occupancy": 47.0,
+    "sample_count": 1,
+    "detection_tips": "Winter conditions common. Look for truck shapes despite snow."
+  },
+  "NY_TA_240": {
+    "samples": [
+      {
+        "truck_count": 0,
+        "occupancy_percent": 4,
+        "weather": "clear",
+        "time_of_day": "day",
+        "detailed_notes": "This appears to be a truck stop under construction or renovation. The parking lot has clearly marked spaces but is mostly empty. There is one red passenger vehicle (car/SUV) visible in the center of the lot. Construction equipment and materials are visible, including what appears to be orange construction barriers. The wet pavement suggests recent rain, creating reflective surfaces. Mountains are visible in the background. The camera position shows approximately 25 parking spaces designed for semi-trucks based on their size and layout."
+      }
+    ],
+    "name": "NY_TA_240",
+    "avg_truck_count": 0.0,
+    "max_truck_count": 0,
+    "avg_occupancy": 4.0,
+    "sample_count": 1,
+    "detection_tips": "Standard detection. Count trailer rectangles."
+  },
+  "NY_TA_196": {
+    "samples": [
+      {
+        "truck_count": 4,
+        "occupancy_percent": 56,
+        "weather": "clear",
+        "time_of_day": "day",
+        "detailed_notes": "Camera labeled 'I-87 NB 6 Ardsley SA Truck Pk 2'. Clear winter conditions with snow on ground but roads/parking areas cleared. All vehicles clearly distinguishable. No bobtails detected - all trucks have trailers attached. One passenger vehicle among the trucks. Strong shadows indicate mid-day sun."
+      }
+    ],
+    "name": "NY_TA_196",
+    "avg_truck_count": 4.0,
+    "max_truck_count": 4,
+    "avg_occupancy": 56.0,
+    "sample_count": 1,
+    "detection_tips": "Winter conditions common. Look for truck shapes despite snow."
+  },
+  "NY_TA_209": {
+    "samples": [
+      {
+        "truck_count": 2,
+        "occupancy_percent": 13,
+        "weather": "clear",
+        "time_of_day": "day",
+        "detailed_notes": "Clear winter day with snow on ground but roads are clear. The parking area appears to be a rest stop or weigh station adjacent to I-87 northbound near Plattekill, NY. Strong shadows from leafless trees could potentially interfere with detection algorithms. The highway traffic is clearly separated from the parking area by barriers and elevation difference."
+      }
+    ],
+    "name": "NY_TA_209",
+    "avg_truck_count": 2.0,
+    "max_truck_count": 2,
+    "avg_occupancy": 13.0,
+    "sample_count": 1,
+    "detection_tips": "Winter conditions common. Look for truck shapes despite snow."
+  },
+  "NY_TA_195": {
+    "samples": [
+      {
+        "truck_count": 4,
+        "occupancy_percent": 50,
+        "weather": "clear",
+        "time_of_day": "day",
+        "detailed_notes": "Winter conditions with significant snow accumulation. The parking area shows plowed lanes between snow banks. White/light-colored trailers are difficult to distinguish from snow in some areas. The image is taken from an elevated position showing a partial view of what appears to be a larger truck parking facility."
+      }
+    ],
+    "name": "NY_TA_195",
+    "avg_truck_count": 4.0,
+    "max_truck_count": 4,
+    "avg_occupancy": 50.0,
+    "sample_count": 1,
+    "detection_tips": "Winter conditions common. Look for truck shapes despite snow."
+  },
+  "NY_TA_233": {
+    "samples": [
+      {
+        "truck_count": 0,
+        "occupancy_percent": 0,
+        "weather": "clear",
+        "time_of_day": "day",
+        "detailed_notes": "This appears to be an empty truck parking area at what looks like a service plaza. The lot shows clear lane markings and appears to be designed for diagonal truck parking. Snow remnants are visible along edges but the main parking surface is clear. The Applegreen fuel station is visible on the left. The parking lot appears recently plowed/cleared. No vehicles of any type are visible in the truck parking area. The clear blue sky and shadows indicate midday lighting conditions."
+      }
+    ],
+    "name": "NY_TA_233",
+    "avg_truck_count": 0.0,
+    "max_truck_count": 0,
+    "avg_occupancy": 0.0,
+    "sample_count": 1,
+    "detection_tips": "Winter conditions common. Look for truck shapes despite snow."
+  },
+  "NY_TA_219": {
+    "samples": [
+      {
+        "truck_count": 15,
+        "occupancy_percent": 74,
+        "weather": "clear",
+        "time_of_day": "day",
+        "detailed_notes": "Winter conditions with snow on ground and wet pavement. Clear daylight provides good visibility despite wet conditions. Mix of white and darker colored trucks aids in detection. Some puddles and wet areas create reflections that could challenge automated detection. Hills and trees visible in background. This appears to be a typical truck stop with both truck and car parking areas."
+      }
+    ],
+    "name": "NY_TA_219",
+    "avg_truck_count": 15.0,
+    "max_truck_count": 15,
+    "avg_occupancy": 74.0,
+    "sample_count": 1,
+    "detection_tips": "Winter conditions common. Look for truck shapes despite snow."
+  },
+  "NY_TA_254": {
+    "samples": [
+      {
+        "truck_count": 0,
+        "occupancy_percent": 0,
+        "weather": "clear",
+        "time_of_day": "day",
+        "detailed_notes": "This appears to be a truck stop parking area (I-87 MP 65.9 SB Modena SA Tk P1) that is completely empty. The parking lot shows clear lane markings despite some snow coverage. The lot appears to be designed for diagonal truck parking based on the striping pattern. Trees line the back of the parking area, and there's a building structure visible on the left side. The clear winter conditions and bright sunlight provide excellent visibility for detection. No vehicles of any kind are present in the frame."
+      }
+    ],
+    "name": "NY_TA_254",
+    "avg_truck_count": 0.0,
+    "max_truck_count": 0,
+    "avg_occupancy": 0.0,
+    "sample_count": 1,
+    "detection_tips": "Winter conditions common. Look for truck shapes despite snow."
+  },
+  "NY_TA_218": {
+    "samples": [
+      {
+        "truck_count": 4,
+        "occupancy_percent": 40,
+        "weather": "clear",
+        "time_of_day": "day",
+        "detailed_notes": "Clear winter day with snow on ground but roads/parking areas are clear. Mountains visible in background. This appears to be a rest area or truck stop with mixed vehicle parking. The camera angle provides good coverage of the lot. White trailers are highly visible against the darker pavement."
+      }
+    ],
+    "name": "NY_TA_218",
+    "avg_truck_count": 4.0,
+    "max_truck_count": 4,
+    "avg_occupancy": 40.0,
+    "sample_count": 1,
+    "detection_tips": "Winter conditions common. Look for truck shapes despite snow."
+  }
+}
