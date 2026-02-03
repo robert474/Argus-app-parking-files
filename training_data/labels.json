@@ -973,6 +973,298 @@
       "labeling_time_sec": 9.85,
       "input_tokens": 878,
       "output_tokens": 286
+    },
+    {
+      "truck_count": 2,
+      "bobtail_count": 0,
+      "car_count": 4,
+      "total_spaces_visible": 25,
+      "spaces_occupied": 6,
+      "occupancy_percent": 24,
+      "weather": "clear",
+      "visibility_quality": "good",
+      "time_of_day": "day",
+      "detection_challenges": [
+        "distance making vehicle classification difficult in far section",
+        "shadows creating contrast issues",
+        "camera angle limiting view of full parking area"
+      ],
+      "truck_positions": "One truck in foreground parking row, one in middle section. Both are full tractor-trailer combinations parked in designated spaces.",
+      "confidence": "high",
+      "detailed_notes": "Clear daylight conditions with good visibility. Camera positioned at elevated angle providing overview of parking area. The curved road design and light pole are prominent features. Mountains visible in background. Timestamp shows February 3, 2026, 12:18:10 PST. Some vehicles in the far distance near the building are difficult to classify definitively as trucks vs large vehicles.",
+      "camera_id": "CA_Truckee",
+      "image_path": "training_images/CA_Truckee_Scales_EB_20260203_141942.jpg",
+      "labeled_at": "2026-02-03T14:20:23.565970",
+      "labeling_time_sec": 16.39,
+      "input_tokens": 530,
+      "output_tokens": 461
+    },
+    {
+      "truck_count": 0,
+      "bobtail_count": 0,
+      "car_count": 0,
+      "total_spaces_visible": 0,
+      "spaces_occupied": 0,
+      "occupancy_percent": 0,
+      "weather": "cloudy",
+      "visibility_quality": "poor",
+      "time_of_day": "day",
+      "detection_challenges": [
+        "Major obstruction on camera lens blocking approximately 40% of view",
+        "Obstruction appears to be debris or foreign object directly on lens",
+        "Cannot see parking area clearly",
+        "View limited to highway/road infrastructure only"
+      ],
+      "truck_positions": "No trucks visible due to obstruction",
+      "confidence": "low",
+      "detailed_notes": "This image is not suitable for training data due to severe camera obstruction. The dark object (possibly debris, bird droppings, or other material) on the lens blocks critical viewing areas. Only highway infrastructure with barriers is partially visible. No parking areas or vehicles can be reliably identified or counted.",
+      "camera_id": "CA_Westley",
+      "image_path": "training_images/CA_Westley_RestStop_NB_20260203_141940.jpg",
+      "labeled_at": "2026-02-03T14:20:38.230548",
+      "labeling_time_sec": 13.66,
+      "input_tokens": 530,
+      "output_tokens": 428
+    },
+    {
+      "truck_count": 0,
+      "bobtail_count": 0,
+      "car_count": 5,
+      "total_spaces_visible": 0,
+      "spaces_occupied": 0,
+      "occupancy_percent": 0,
+      "weather": "clear",
+      "visibility_quality": "excellent",
+      "time_of_day": "day",
+      "detection_challenges": [
+        "This is a highway/freeway image, not a parking area"
+      ],
+      "truck_positions": "No trucks visible - only passenger vehicles on active highway lanes",
+      "confidence": "high",
+      "detailed_notes": "This CCTV image shows active highway traffic on what appears to be I-70 Indian Truck Trail Rd. There are 5 passenger vehicles visible traveling on the highway lanes. One vehicle appears to be a white SUV/crossover in the right lane, with 4 other passenger cars spread across the lanes. There is a yellow diamond warning sign visible on the right shoulder. This is not a parking area but rather active highway traffic flow. The timestamp shows February 03, 2026 at 12:17:11 PST.",
+      "camera_id": "CA_IndianTruckTrail",
+      "image_path": "training_images/CA_IndianTruckTrail_20260203_141950.jpg",
+      "labeled_at": "2026-02-03T14:20:48.532157",
+      "labeling_time_sec": 9.29,
+      "input_tokens": 530,
+      "output_tokens": 292
+    },
+    {
+      "truck_count": 0,
+      "bobtail_count": 0,
+      "car_count": 0,
+      "total_spaces_visible": 0,
+      "spaces_occupied": 0,
+      "occupancy_percent": 0,
+      "weather": "clear",
+      "visibility_quality": "excellent",
+      "time_of_day": "day",
+      "detection_challenges": [
+        "No parking area visible in frame",
+        "Highway traffic view only"
+      ],
+      "truck_positions": "One semi-truck visible in highway traffic, no parked trucks",
+      "confidence": "high",
+      "detailed_notes": "This is a highway traffic monitoring camera (CCTV 342) showing Interstate 15 near Indian Truck Trail Rd. No parking facilities are visible in this frame - only flowing highway traffic. The camera angle shows the highway median, lanes in both directions, and roadside areas but no designated parking spaces. For truck parking detection training, this image would be useful as a negative example (no parking area present).",
+      "camera_id": "CA_IndianTruckTrail",
+      "image_path": "training_images/CA_IndianTruckTrail_N_20260203_141951.jpg",
+      "labeled_at": "2026-02-03T14:21:03.553425",
+      "labeling_time_sec": 14.01,
+      "input_tokens": 530,
+      "output_tokens": 419
+    },
+    {
+      "truck_count": 0,
+      "bobtail_count": 0,
+      "car_count": 0,
+      "total_spaces_visible": 0,
+      "spaces_occupied": 0,
+      "occupancy_percent": 0,
+      "weather": "clear",
+      "visibility_quality": "excellent",
+      "time_of_day": "day",
+      "detection_challenges": [
+        "No parking area visible in frame",
+        "Highway-only view"
+      ],
+      "truck_positions": "No trucks visible - this is an active highway with no parking areas",
+      "confidence": "high",
+      "detailed_notes": "This CCTV camera shows US Route 298 (Rainbow Valley Blvd) looking southbound. The image shows only active highway lanes with a green highway sign visible. There are no parking areas, rest stops, or shoulders suitable for truck parking visible in this frame. The timestamp shows 12:16:09 PST on Tuesday, February 03, 2026. The road appears empty with no vehicles currently in view. This image would not be suitable for training a truck parking detection system as it contains no parking infrastructure.",
+      "camera_id": "CA_RainbowValley",
+      "image_path": "training_images/CA_RainbowValley_TruckInsp_S_20260203_141944.jpg",
+      "labeled_at": "2026-02-03T14:21:14.583883",
+      "labeling_time_sec": 10.02,
+      "input_tokens": 530,
+      "output_tokens": 288
+    },
+    {
+      "truck_count": 0,
+      "bobtail_count": 0,
+      "car_count": 0,
+      "total_spaces_visible": 0,
+      "spaces_occupied": 0,
+      "occupancy_percent": 0,
+      "weather": "not_applicable",
+      "visibility_quality": "not_applicable",
+      "time_of_day": "not_applicable",
+      "detection_challenges": [
+        "no_video_feed",
+        "technical_error_screen"
+      ],
+      "truck_positions": "no vehicles visible - technical error screen",
+      "confidence": "high",
+      "detailed_notes": "This is a 'No video' error screen from what appears to be a CalTrans camera system, not an actual parking lot image. The screen shows a teal/cyan colored logo on a black background with a timestamp. No parking lot, vehicles, or parking spaces are visible. This image should not be used for training a parking detection system as it contains no relevant visual data.",
+      "camera_id": "CA_Kern",
+      "image_path": "training_images/CA_Kern_TruckEscape_Median_20260203_141948.jpg",
+      "labeled_at": "2026-02-03T14:21:25.183704",
+      "labeling_time_sec": 9.59,
+      "input_tokens": 530,
+      "output_tokens": 319
+    },
+    {
+      "truck_count": 0,
+      "bobtail_count": 0,
+      "car_count": 0,
+      "total_spaces_visible": 0,
+      "spaces_occupied": 0,
+      "occupancy_percent": 0,
+      "weather": "not_applicable",
+      "visibility_quality": "not_applicable",
+      "time_of_day": "not_applicable",
+      "detection_challenges": [
+        "image_unavailable",
+        "no_parking_lot_visible"
+      ],
+      "truck_positions": "no_image_content",
+      "confidence": "not_applicable",
+      "detailed_notes": "Image shows 'Temporarily Unavailable' error message with timestamp Tuesday, February 03, 2026 12:17:52 PST. No parking lot or vehicles visible for analysis.",
+      "camera_id": "CA_Whitewater",
+      "image_path": "training_images/CA_Whitewater_RestArea_WB_20260203_141937.jpg",
+      "labeled_at": "2026-02-03T14:21:33.728383",
+      "labeling_time_sec": 7.54,
+      "input_tokens": 530,
+      "output_tokens": 260
+    },
+    {
+      "truck_count": 0,
+      "bobtail_count": 0,
+      "car_count": 0,
+      "total_spaces_visible": 0,
+      "spaces_occupied": 0,
+      "occupancy_percent": 0,
+      "weather": "clear",
+      "visibility_quality": "excellent",
+      "time_of_day": "day",
+      "detection_challenges": [
+        "No parking area visible",
+        "Highway-only view"
+      ],
+      "truck_positions": "No trucks visible in frame",
+      "confidence": "high",
+      "detailed_notes": "This is a highway camera showing I-5 northbound at milepost 234.7 near Highway 96. The image shows only the highway lanes with no visible parking areas, rest stops, or pull-offs. The sign visible says 'ALL TRUCKS STOP AT SCALES'. No vehicles are visible on the highway at this moment. The timestamp shows Tuesday, February 03, 2026, 12:18:07 PST. Clear weather conditions with excellent visibility. Pine forest visible on the right side of the highway.",
+      "camera_id": "CA_Truckee",
+      "image_path": "training_images/CA_Truckee_Scales_WB_20260203_141943.jpg",
+      "labeled_at": "2026-02-03T14:21:43.761551",
+      "labeling_time_sec": 9.03,
+      "input_tokens": 530,
+      "output_tokens": 280
+    },
+    {
+      "truck_count": 2,
+      "bobtail_count": 0,
+      "car_count": 3,
+      "total_spaces_visible": 0,
+      "spaces_occupied": 0,
+      "occupancy_percent": 0,
+      "weather": "clear",
+      "visibility_quality": "excellent",
+      "time_of_day": "day",
+      "detection_challenges": [
+        "This is highway traffic, not a parking area",
+        "Moving vehicles rather than parked"
+      ],
+      "truck_positions": "Trucks are in active highway lanes - one prominent white semi in right lane, another visible in distance",
+      "confidence": "high",
+      "detailed_notes": "This appears to be a highway traffic monitoring camera showing I-70 near Indian Truck Trail Rd. All vehicles are in motion on the highway. No parking facilities are visible in frame. Clear daylight conditions with good visibility. The camera timestamp shows February 03, 2025, 12:19:04 PM.",
+      "camera_id": "CA_IndianTruckTrail",
+      "image_path": "training_images/CA_IndianTruckTrail_S_20260203_141949.jpg",
+      "labeled_at": "2026-02-03T14:21:57.097543",
+      "labeling_time_sec": 12.33,
+      "input_tokens": 530,
+      "output_tokens": 403
+    },
+    {
+      "truck_count": 0,
+      "bobtail_count": 0,
+      "car_count": 0,
+      "total_spaces_visible": 0,
+      "spaces_occupied": 0,
+      "occupancy_percent": 0,
+      "weather": "unknown",
+      "visibility_quality": "poor",
+      "time_of_day": "unknown",
+      "detection_challenges": [
+        "image not available",
+        "no visual data to analyze"
+      ],
+      "truck_positions": "no image available",
+      "confidence": "low",
+      "detailed_notes": "The image displays 'Temporarily Unavailable' text instead of a parking lot view. Cannot perform vehicle counting or parking analysis. Timestamp shown: Tuesday, February 03, 2026 12:15:54 PST",
+      "camera_id": "CA_DesertOasis",
+      "image_path": "training_images/CA_DesertOasis_RestArea_20260203_141941.jpg",
+      "labeled_at": "2026-02-03T14:22:06.276526",
+      "labeling_time_sec": 8.17,
+      "input_tokens": 530,
+      "output_tokens": 276
+    },
+    {
+      "truck_count": 0,
+      "bobtail_count": 0,
+      "car_count": 4,
+      "total_spaces_visible": 0,
+      "spaces_occupied": 0,
+      "occupancy_percent": 0,
+      "weather": "clear",
+      "visibility_quality": "excellent",
+      "time_of_day": "day",
+      "detection_challenges": [
+        "No parking area visible",
+        "Highway traffic only",
+        "Motion blur on vehicles"
+      ],
+      "truck_positions": "No trucks visible - this is active highway traffic, not a parking area",
+      "confidence": "high",
+      "detailed_notes": "This is a CCTV camera monitoring active highway traffic on what appears to be Interstate 15 near Rainbow Valley. The image shows 4 passenger vehicles traveling on the highway - 2 in the left lane and 2 in the right lane. There is no truck parking area visible in this frame. The timestamp shows February 03, 2026 at 12:17:02 PM. Clear weather conditions with excellent visibility. This appears to be a traffic monitoring camera, not a truck parking facility camera.",
+      "camera_id": "CA_RainbowValley",
+      "image_path": "training_images/CA_RainbowValley_TruckInsp_N_20260203_141945.jpg",
+      "labeled_at": "2026-02-03T14:22:15.663463",
+      "labeling_time_sec": 8.38,
+      "input_tokens": 530,
+      "output_tokens": 289
+    },
+    {
+      "truck_count": 2,
+      "bobtail_count": 0,
+      "car_count": 1,
+      "total_spaces_visible": 0,
+      "spaces_occupied": 0,
+      "occupancy_percent": 0,
+      "weather": "cloudy",
+      "visibility_quality": "good",
+      "time_of_day": "day",
+      "detection_challenges": [
+        "motion blur",
+        "vehicles in transit",
+        "no designated parking area visible"
+      ],
+      "truck_positions": "Two semi-trucks with trailers visible on the highway - one white trailer in center lane, one partially visible on right side of frame",
+      "confidence": "high",
+      "detailed_notes": "This appears to be a highway traffic camera showing moving traffic, not a parking area. The image shows NB I-5 at Shunpiker Escape Ramp with vehicles in motion on the roadway. There is one red car/SUV in the left lane, one white semi-truck with trailer in the center lane, and another semi-truck partially visible on the right edge of the frame. No parking spaces or rest area visible in this highway segment. The escape ramp and shoulder areas appear empty.",
+      "camera_id": "CA_Kern",
+      "image_path": "training_images/CA_Kern_TruckEscape_Shoulder_20260203_141947.jpg",
+      "labeled_at": "2026-02-03T14:22:26.894174",
+      "labeling_time_sec": 10.22,
+      "input_tokens": 530,
+      "output_tokens": 290
     }
   ],
   "sites": {
@@ -1413,6 +1705,167 @@
       "avg_occupancy": 40.5,
       "sample_count": 2,
       "detection_tips": "Winter conditions common. Look for truck shapes despite snow."
+    },
+    "CA_Truckee": {
+      "samples": [
+        {
+          "truck_count": 2,
+          "occupancy_percent": 24,
+          "weather": "clear",
+          "time_of_day": "day",
+          "detailed_notes": "Clear daylight conditions with good visibility. Camera positioned at elevated angle providing overview of parking area. The curved road design and light pole are prominent features. Mountains visible in background. Timestamp shows February 3, 2026, 12:18:10 PST. Some vehicles in the far distance near the building are difficult to classify definitively as trucks vs large vehicles."
+        },
+        {
+          "truck_count": 0,
+          "occupancy_percent": 0,
+          "weather": "clear",
+          "time_of_day": "day",
+          "detailed_notes": "This is a highway camera showing I-5 northbound at milepost 234.7 near Highway 96. The image shows only the highway lanes with no visible parking areas, rest stops, or pull-offs. The sign visible says 'ALL TRUCKS STOP AT SCALES'. No vehicles are visible on the highway at this moment. The timestamp shows Tuesday, February 03, 2026, 12:18:07 PST. Clear weather conditions with excellent visibility. Pine forest visible on the right side of the highway."
+        }
+      ],
+      "name": "CA_Truckee",
+      "avg_truck_count": 1.0,
+      "max_truck_count": 2,
+      "min_truck_count": 0,
+      "avg_occupancy": 12.0,
+      "sample_count": 2,
+      "detection_tips": "Standard detection. Count trailer rectangles."
+    },
+    "CA_Westley": {
+      "samples": [
+        {
+          "truck_count": 0,
+          "occupancy_percent": 0,
+          "weather": "cloudy",
+          "time_of_day": "day",
+          "detailed_notes": "This image is not suitable for training data due to severe camera obstruction. The dark object (possibly debris, bird droppings, or other material) on the lens blocks critical viewing areas. Only highway infrastructure with barriers is partially visible. No parking areas or vehicles can be reliably identified or counted."
+        }
+      ],
+      "name": "CA_Westley",
+      "avg_truck_count": 0.0,
+      "max_truck_count": 0,
+      "min_truck_count": 0,
+      "avg_occupancy": 0.0,
+      "sample_count": 1,
+      "detection_tips": "Standard detection. Count trailer rectangles."
+    },
+    "CA_IndianTruckTrail": {
+      "samples": [
+        {
+          "truck_count": 0,
+          "occupancy_percent": 0,
+          "weather": "clear",
+          "time_of_day": "day",
+          "detailed_notes": "This CCTV image shows active highway traffic on what appears to be I-70 Indian Truck Trail Rd. There are 5 passenger vehicles visible traveling on the highway lanes. One vehicle appears to be a white SUV/crossover in the right lane, with 4 other passenger cars spread across the lanes. There is a yellow diamond warning sign visible on the right shoulder. This is not a parking area but rather active highway traffic flow. The timestamp shows February 03, 2026 at 12:17:11 PST."
+        },
+        {
+          "truck_count": 0,
+          "occupancy_percent": 0,
+          "weather": "clear",
+          "time_of_day": "day",
+          "detailed_notes": "This is a highway traffic monitoring camera (CCTV 342) showing Interstate 15 near Indian Truck Trail Rd. No parking facilities are visible in this frame - only flowing highway traffic. The camera angle shows the highway median, lanes in both directions, and roadside areas but no designated parking spaces. For truck parking detection training, this image would be useful as a negative example (no parking area present)."
+        },
+        {
+          "truck_count": 2,
+          "occupancy_percent": 0,
+          "weather": "clear",
+          "time_of_day": "day",
+          "detailed_notes": "This appears to be a highway traffic monitoring camera showing I-70 near Indian Truck Trail Rd. All vehicles are in motion on the highway. No parking facilities are visible in frame. Clear daylight conditions with good visibility. The camera timestamp shows February 03, 2025, 12:19:04 PM."
+        }
+      ],
+      "name": "CA_IndianTruckTrail",
+      "avg_truck_count": 0.6666666666666666,
+      "max_truck_count": 2,
+      "min_truck_count": 0,
+      "avg_occupancy": 0.0,
+      "sample_count": 3,
+      "detection_tips": "Standard detection. Count trailer rectangles."
+    },
+    "CA_RainbowValley": {
+      "samples": [
+        {
+          "truck_count": 0,
+          "occupancy_percent": 0,
+          "weather": "clear",
+          "time_of_day": "day",
+          "detailed_notes": "This CCTV camera shows US Route 298 (Rainbow Valley Blvd) looking southbound. The image shows only active highway lanes with a green highway sign visible. There are no parking areas, rest stops, or shoulders suitable for truck parking visible in this frame. The timestamp shows 12:16:09 PST on Tuesday, February 03, 2026. The road appears empty with no vehicles currently in view. This image would not be suitable for training a truck parking detection system as it contains no parking infrastructure."
+        },
+        {
+          "truck_count": 0,
+          "occupancy_percent": 0,
+          "weather": "clear",
+          "time_of_day": "day",
+          "detailed_notes": "This is a CCTV camera monitoring active highway traffic on what appears to be Interstate 15 near Rainbow Valley. The image shows 4 passenger vehicles traveling on the highway - 2 in the left lane and 2 in the right lane. There is no truck parking area visible in this frame. The timestamp shows February 03, 2026 at 12:17:02 PM. Clear weather conditions with excellent visibility. This appears to be a traffic monitoring camera, not a truck parking facility camera."
+        }
+      ],
+      "name": "CA_RainbowValley",
+      "avg_truck_count": 0.0,
+      "max_truck_count": 0,
+      "min_truck_count": 0,
+      "avg_occupancy": 0.0,
+      "sample_count": 2,
+      "detection_tips": "Standard detection. Count trailer rectangles."
+    },
+    "CA_Kern": {
+      "samples": [
+        {
+          "truck_count": 0,
+          "occupancy_percent": 0,
+          "weather": "not_applicable",
+          "time_of_day": "not_applicable",
+          "detailed_notes": "This is a 'No video' error screen from what appears to be a CalTrans camera system, not an actual parking lot image. The screen shows a teal/cyan colored logo on a black background with a timestamp. No parking lot, vehicles, or parking spaces are visible. This image should not be used for training a parking detection system as it contains no relevant visual data."
+        },
+        {
+          "truck_count": 2,
+          "occupancy_percent": 0,
+          "weather": "cloudy",
+          "time_of_day": "day",
+          "detailed_notes": "This appears to be a highway traffic camera showing moving traffic, not a parking area. The image shows NB I-5 at Shunpiker Escape Ramp with vehicles in motion on the roadway. There is one red car/SUV in the left lane, one white semi-truck with trailer in the center lane, and another semi-truck partially visible on the right edge of the frame. No parking spaces or rest area visible in this highway segment. The escape ramp and shoulder areas appear empty."
+        }
+      ],
+      "name": "CA_Kern",
+      "avg_truck_count": 1.0,
+      "max_truck_count": 2,
+      "min_truck_count": 0,
+      "avg_occupancy": 0.0,
+      "sample_count": 2,
+      "detection_tips": "Standard detection. Count trailer rectangles."
+    },
+    "CA_Whitewater": {
+      "samples": [
+        {
+          "truck_count": 0,
+          "occupancy_percent": 0,
+          "weather": "not_applicable",
+          "time_of_day": "not_applicable",
+          "detailed_notes": "Image shows 'Temporarily Unavailable' error message with timestamp Tuesday, February 03, 2026 12:17:52 PST. No parking lot or vehicles visible for analysis."
+        }
+      ],
+      "name": "CA_Whitewater",
+      "avg_truck_count": 0.0,
+      "max_truck_count": 0,
+      "min_truck_count": 0,
+      "avg_occupancy": 0.0,
+      "sample_count": 1,
+      "detection_tips": "Standard detection. Count trailer rectangles."
+    },
+    "CA_DesertOasis": {
+      "samples": [
+        {
+          "truck_count": 0,
+          "occupancy_percent": 0,
+          "weather": "unknown",
+          "time_of_day": "unknown",
+          "detailed_notes": "The image displays 'Temporarily Unavailable' text instead of a parking lot view. Cannot perform vehicle counting or parking analysis. Timestamp shown: Tuesday, February 03, 2026 12:15:54 PST"
+        }
+      ],
+      "name": "CA_DesertOasis",
+      "avg_truck_count": 0.0,
+      "max_truck_count": 0,
+      "min_truck_count": 0,
+      "avg_occupancy": 0.0,
+      "sample_count": 1,
+      "detection_tips": "Standard detection. Count trailer rectangles."
     }
   }
 }
